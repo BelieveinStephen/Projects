@@ -1,0 +1,32 @@
+1. Given the following, can you prove the unicorn is mythical? How about Magical? and Horned? (adapted from Barwise and Etchemendy (1993)).
+if the unicorn is mythical, then it is immortal, but if it is not mythical, then it is a mortal mammal. If the unicorn is either immortal or a mammal, then it is horned. The unicorn is magical if it is horned.
+
+unicorn is mythical = A
+it is immortal = B
+It is a mammal = C
+It is horned = D
+it is magical = E
+
+A --> B
+~A --> ~B ^ C
+B V C --> D
+D --> E
+
+1. Is mythical if its immortal.  No not provable
+2. Magical if it is horned.  Yes provable
+3. Horned if immortal or mammal. Yes provable
+
+2. Which of the following are correct?
+False |= True
+True |= False
+(A^B)|=(A<->B)
+A<->B|=AvB
+A<->B|=~AvB
+(AvB)^(~AvB) is satisfiable
+
+1. True, False is conditional to True.
+2. False
+3. True, if A^B then A<-> is subcategory of A^B
+4. False, is biconditional and therefore not limited
+5. False, Similar to 4
+6. True, (¬AvB) is equal to B so is satisfiable

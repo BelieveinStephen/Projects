@@ -1,0 +1,8 @@
+
+1. For the ?rst program: Why does it generate so many long sentences? What grammar rule is responsible?
+
+The reason that there are such long sentences is a combination of the NP rule and lack of correct sentence probabilities.  NP, which has two successors/children and is in 4 different results for rules is constantly being called until it hits a situations where all NP’s == DT Noun, which is the only state in which no NP is recycled and we can end the loop for the NP rule.  Otherwise, we are left looping the NP rules over and over until all such rules reach this conclusion.  Once the probability for such sentences has been generated, we will notice a stark decrease in the length of sentence due to having more realistic outcomes. 
+
+ 2. How many ways are there to analyze the following noun phrase under the original grammar? (That is, how many ways are there to derive this string if you start from the NP symbol of grammar?) “every sandwich with a pickle on the floor under the chief of staff” Explain your answer
+
+The reason this is so limited it its analysis is due to the lack of verbs in the sentence.  We are strictly looking at {DT, Noun, Prep, DT, Noun, Prep, DT, Noun, Prep, DT, Noun.}  For NP, our results are limited to DT Noun and NP PP.  So we are left grouping the sentence in either DT Noun or NP PP, therefore there are at least two methods, but probably 4, in which we can analyze this sentence.  One where we view it as all {DT Noun} ‘s or grouping at {NP PP} and then a combination of the two, which we would be another 2 possibilities making at least 4 basic sentences according to our grammar.
