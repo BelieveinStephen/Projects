@@ -1,0 +1,14 @@
+
+.sitetitle
+{
+width:250px;
+height:50px;
+border:30px blue;
+border-style:double groove double groove;
+font-size:28px;
+margin-left:auto;
+margin-right:auto;
+color:red;
+font-style:bold;
+text-align:center;
+}

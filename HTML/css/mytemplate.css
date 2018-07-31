@@ -1,0 +1,43 @@
+.topbanner
+	{
+	background-color:#EDDA74;
+	color:DarkCyan;
+	width:975px;
+	}
+body
+	{		
+	font-family:Arial;
+	color: #FFCBA4;
+	background-color:#D4A017;
+	text-align:center;
+	
+	}
+
+table
+	{
+	width:975px;
+	background-color:#EDDA74;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px 10px 15px 15px;
+	}
+
+.botnav
+	{
+	background-color:#C25283;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+	}
+	
+.mainnav 
+	{
+	background-color:#FFCBA4;
+    padding: 20px;
+    text-align: center;
+    display:block;
+	padding-right:30px;
+	
+	}
+
+
+	
