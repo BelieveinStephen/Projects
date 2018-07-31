@@ -1,0 +1,135 @@
+Test 1: size() ==> [Passed]
+ Expected: 0
+ Yours: 0
+
+Test 2: add(1003, "Xiwei Wang") ==> [Passed]
+ Expected: true
+ Yours: true
+
+Test 3: isEmpty() ==> [Passed]
+ Expected: false
+ Yours: false
+
+Test 4: add(1005, "Neil Moore") ==> [Passed]
+ Expected: true
+ Yours: true
+
+Test 5: add(1001, "Peter Kimmel") ==> [Passed]
+ Expected: true
+ Yours: true
+
+Test 6: size() ==> [Passed]
+ Expected: 3
+ Yours: 3
+
+Test 7: toString() ==> [Passed]
+ Expected: [1001 | Peter Kimmel] [1003 | Xiwei Wang] [1005 | Neil Moore] 
+ Yours: [1001 | Peter Kimmel] [1003 | Xiwei Wang] [1005 | Neil Moore] 
+
+Test 8: contains(1001) ==> [Passed]
+ Expected: true
+ Yours: true
+
+Test 9: contains(1002) ==> [Passed]
+ Expected: false
+ Yours: false
+
+Test 10: contains(1003) ==> [Passed]
+ Expected: true
+ Yours: true
+
+Test 11: contains(1005) ==> [Passed]
+ Expected: true
+ Yours: true
+
+Test 12: remove(1004) ==> [Passed]
+ Expected: false
+ Yours: false
+
+Test 13: remove(1001) ==> [Passed]
+ Expected: true
+ Yours: true
+
+Test 14: toString() ==> [Passed]
+ Expected: [1003 | Xiwei Wang] [1005 | Neil Moore] 
+ Yours: [1003 | Xiwei Wang] [1005 | Neil Moore] 
+
+Test 15: contains(1001) ==> [Passed]
+ Expected: false
+ Yours: false
+
+Test 16: add(1002, "David Brown") ==> [Passed]
+ Expected: true
+ Yours: true
+
+Test 17: add(1006, "Kung Fu Panda") ==> [Passed]
+ Expected: true
+ Yours: true
+
+Test 18: get(1005).getName() ==> [Passed]
+ Expected: "Neil Moore"
+ Yours: "Neil Moore"
+
+Test 19: get(1002).setName("Hassan Alomran") and then size() ==> [Failed]
+ Expected: 4
+ Yours: 3
+
+Test 20: toString() ==> [Passed]
+ Expected: [1002 | Hassan Alomran] [1003 | Xiwei Wang] [1005 | Neil Moore] [1006 | Kung Fu Panda] 
+ Yours: [1002 | Hassan Alomran] [1003 | Xiwei Wang] [1005 | Neil Moore] [1006 | Kung Fu Panda] 
+
+Test 21: get(1008) ==> [Passed]
+ Expected: null
+ Yours: null
+
+Test 22: add(1005, "Xiwei Wang") ==> [Passed]
+ Expected: false
+ Yours: false
+
+Test 23: remove({1002, 1003, 1005, 1006}) and then isEmpty() ==> [Passed]
+ Expected: true
+ Yours: true
+
+Test 24: size() ==> [Passed]
+ Expected: 0
+ Yours: 0
+
+Test 25: add(1006, "Erich Smith") ==> [Passed]
+ Expected: true
+ Yours: true
+
+Test 26: add(1003, "Damon Caskey") ==> [Passed]
+ Expected: true
+ Yours: true
+
+Test 27: add(1004, "Jeremy Wells") ==> [Passed]
+ Expected: true
+ Yours: true
+
+Test 28: toString() ==> [Passed]
+ Expected: [1003 | Damon Caskey] [1004 | Jeremy Wells] [1006 | Erich Smith] 
+ Yours: [1003 | Damon Caskey] [1004 | Jeremy Wells] [1006 | Erich Smith] 
+
+Test 29: contains(1004) ==> [Passed]
+ Expected: true
+ Yours: true
+
+Test 30: contains(1005) ==> [Passed]
+ Expected: false
+ Yours: false
+
+Test 31: remove(1002) ==> [Passed]
+ Expected: false
+ Yours: false
+
+Test 32: remove(1003) ==> [Passed]
+ Expected: true
+ Yours: true
+
+Test 33: size() ==> [Failed]
+ Expected: 2
+ Yours: 1
+
+Total test cases: 33
+Correct: 31
+Wrong: 2

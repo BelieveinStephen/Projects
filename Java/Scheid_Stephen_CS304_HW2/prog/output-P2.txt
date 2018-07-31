@@ -1,0 +1,139 @@
+================ Problem 2 ================
+Test 1: (187) ==> [Passed]
+ Expected: 187
+ Yours: 187
+
+Test 2: (+) ==> [Passed]
+ Expected: RuntimeException - "Not enough operands"
+ Yours: RuntimeException - "Not enough operands"
+
+Test 3: (45 +) ==> [Passed]
+ Expected: RuntimeException - "Not enough operands"
+ Yours: RuntimeException - "Not enough operands"
+
+Test 4: (4  5   +) ==> [Passed]
+ Expected: 9
+ Yours: 9
+
+Test 5: (4  5+) ==> [Passed]
+ Expected: RuntimeException - "Not enough operands"
+ Yours: RuntimeException - "Not enough operands"
+
+Test 6: (4  5  6   +) ==> [Passed]
+ Expected: RuntimeException - "Too many operands"
+ Yours: RuntimeException - "Too many operands"
+
+Test 7: (---         ) ==> [Passed]
+ Expected: RuntimeException - "Not enough operands"
+ Yours: RuntimeException - "Not enough operands"
+
+Test 8: (7 6 3 5 * 1 4 + * + 2 * +) ==> [Passed]
+ Expected: 169
+ Yours: 169
+
+Test 9: (2 3 ^) ==> [Passed]
+ Expected: RuntimeException - "Unrecognized operator: ^"
+ Yours: RuntimeException - "Unrecognized operator: ^"
+
+Test 10: (2 3 + * 4 ddd) ==> [Passed]
+ Expected: RuntimeException - "Not enough operands"
+ Yours: RuntimeException - "Not enough operands"
+
+Test 11: (2 3 + 4 ddd) ==> [Passed]
+ Expected: RuntimeException - "Unrecognized operator: ddd"
+ Yours: RuntimeException - "Unrecognized operator: ddd"
+
+Test 12: (2   5  +++++   ) ==> [Passed]
+ Expected: RuntimeException - "Unrecognized operator: +++++"
+ Yours: RuntimeException - "Unrecognized operator: +++++"
+
+Test 13: (22 33 44 *) ==> [Passed]
+ Expected: RuntimeException - "Too many operands"
+ Yours: RuntimeException - "Too many operands"
+
+Test 14: (17 33 +) ==> [Passed]
+ Expected: 50
+ Yours: 50
+
+Test 15: (9 20 -) ==> [Passed]
+ Expected: -11
+ Yours: -11
+
+Test 16: (20 9 -) ==> [Passed]
+ Expected: 11
+ Yours: 11
+
+Test 17: (53 8 /) ==> [Passed]
+ Expected: 6
+ Yours: 6
+
+Test 18: (8 53 /) ==> [Passed]
+ Expected: 0
+ Yours: 0
+
+Test 19: (0 45 /) ==> [Passed]
+ Expected: 0
+ Yours: 0
+
+Test 20: (393 0 /) ==> [Passed]
+ Expected: RuntimeException - "/ by zero"
+ Yours: RuntimeException - "/ by zero"
+
+Test 21: (3 4 5 * e) ==> [Passed]
+ Expected: RuntimeException - "Unrecognized operator: e"
+ Yours: RuntimeException - "Unrecognized operator: e"
+
+Test 22: (3 4 5 + *) ==> [Passed]
+ Expected: 27
+ Yours: 27
+
+Test 23: (3 4 + 5 *) ==> [Passed]
+ Expected: 35
+ Yours: 35
+
+Test 24: (3 4 * 5 +) ==> [Passed]
+ Expected: 17
+ Yours: 17
+
+Test 25: (4 9 - 2 * 13 +) ==> [Passed]
+ Expected: 3
+ Yours: 3
+
+Test 26: (100 5 + -) ==> [Passed]
+ Expected: RuntimeException - "Not enough operands"
+ Yours: RuntimeException - "Not enough operands"
+
+Test 27: (3 5 9 +) ==> [Passed]
+ Expected: RuntimeException - "Too many operands"
+ Yours: RuntimeException - "Too many operands"
+
+Test 28: (21 3 / 88 +) ==> [Passed]
+ Expected: 95
+ Yours: 95
+
+Test 29: (17 5  45 9 /  -  /) ==> [Passed]
+ Expected: RuntimeException - "/ by zero"
+ Yours: RuntimeException - "/ by zero"
+
+Test 30: (100 40 - 32 -) ==> [Passed]
+ Expected: 28
+ Yours: 28
+
+Test 31: (100 40 32 - -) ==> [Passed]
+ Expected: 92
+ Yours: 92
+
+Test 32: (45 5 3 4 / 8 8 * 4 2 - 1 + + - /) ==> [Passed]
+ Expected: RuntimeException - "Too many operands"
+ Yours: RuntimeException - "Too many operands"
+
+Test 33: (45 5 3 4 + 8 8 * 4 2 / 1 + + - * +) ==> [Passed]
+ Expected: -255
+ Yours: -255
+
+Total test cases: 33
+Correct: 33
+Wrong: 0
+================ End of Problem 2 ===============
+
+

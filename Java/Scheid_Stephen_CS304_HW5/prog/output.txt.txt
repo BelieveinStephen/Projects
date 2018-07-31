@@ -1,0 +1,12 @@
+Test 1: 
+The tree should have 10 nodes and your tree has 10 nodes.
+The in-order traversal of the tree should print the following sequence: 3 5 10 15 17 20 25 30 33 40.
+Your tree prints the following sequence: 3 5 10 15 17 20 25 30 33 40 
+Test 2: 
+The tree should have 9 nodes and your tree has 9 nodes.
+The in-order traversal of the tree should print the following sequence: 10 20 30 40 50 60 70 80 90.
+Your tree prints the following sequence: 10 20 30 40 50 60 70 80 90 
+Test 3: 
+The tree should have 5 nodes and your tree has 5 nodes.
+The in-order traversal of the tree should print the following sequence: 10 20 30 40 50.
+Your tree prints the following sequence: 10 20 30 40 50 

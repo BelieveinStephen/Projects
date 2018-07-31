@@ -1,0 +1,96 @@
+================ Problem 1 ================
+Test 1: size() ==> [Passed]
+ Expected: 0
+ Yours: 0
+
+Test 2: pop() ==> [Passed]
+ Expected: a RuntimeException
+ Yours: RuntimeException - "pop attempted on a an empty stack"
+
+Test 3: push(10) and then isEmpty() ==> [Passed]
+ Expected: false
+ Yours: false
+
+Test 4: toString() ==> [Passed]
+ Expected (from top to bottom): 10 
+ Yours (from top to bottom): 10 
+
+Test 5: top() ==> [Passed]
+ Expected: 10
+ Yours: 10
+
+Test 6: push(20) and then toString() ==> [Passed]
+ Expected (from top to bottom): 20 10 
+ Yours (from top to bottom): 20 10 
+
+Test 7: top() ==> [Passed]
+ Expected: 20
+ Yours: 20
+
+Test 8: pop() ==> [Passed]
+ Expected: 20
+ Yours: 20
+
+Test 9: toString() ==> [Passed]
+ Expected (from top to bottom): 10 
+ Yours (from top to bottom): 10 
+
+Test 10: push(30), push(40), push(50), and then toString() ==> [Passed]
+ Expected (from top to bottom): 50 40 30 10 
+ Yours (from top to bottom): 50 40 30 10 
+
+Test 11: size() ==> [Passed]
+ Expected: 4
+ Yours: 4
+
+Test 12: pop() and then top() ==> [Passed]
+ Expected: 40
+ Yours: 40
+
+Test 13: pop() and then size() ==> [Passed]
+ Expected: 2
+ Yours: 2
+
+Test 14: push(20) and then toString() ==> [Passed]
+ Expected (from top to bottom): 20 30 10 
+ Yours (from top to bottom): 20 30 10 
+
+Test 15: size() ==> [Passed]
+ Expected: 3
+ Yours: 3
+
+Test 16: pop() twice and then top() ==> [Passed]
+ Expected: 10
+ Yours: 10
+
+Test 17: toString() ==> [Passed]
+ Expected (from top to bottom): 10 
+ Yours (from top to bottom): 10 
+
+Test 18: pop() and then isEmpty() ==> [Passed]
+ Expected: true
+ Yours: true
+
+Test 19: size() ==> [Passed]
+ Expected: 0
+ Yours: 0
+
+Test 20: pop() ==> [Passed]
+ Expected: a RuntimeException
+ Yours: RuntimeException - "pop attempted on a an empty stack"
+
+Test 21: push(70) and then toString() ==> [Passed]
+ Expected (from top to bottom): 70 
+ Yours (from top to bottom): 70 
+
+Test 22: top() ==> [Passed]
+ Expected: 70
+ Yours: 70
+
+Test 23: pop() and then size() ==> [Passed]
+ Expected: 0
+ Yours: 0
+
+Total test cases: 23
+Correct: 23
+Wrong: 0

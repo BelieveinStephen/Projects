@@ -1,0 +1,64 @@
+TTest 1: sum(10) ==> [Passed]
+ Expected: 10
+ Yours: 10
+
+Test 2: sum(10, 20, 30, 40, 50, 60) ==> [Passed]
+ Expected: 210
+ Yours: 210
+
+Test 3: largest(10) ==> [Passed]
+ Expected: 10
+ Yours: 10
+
+Test 4: largest(10, 20, 30, 40, 50, 60) ==> [Passed]
+ Expected: 60
+ Yours: 60
+
+Test 5: largest(70, 20, 30, 40, 50, 10) ==> [Passed]
+ Expected: 70
+ Yours: 70
+
+Test 6: largest(70, 20, 100, 40, 50, 10) ==> [Passed]
+ Expected: 100
+ Yours: 100
+
+Test 7: reverseStringRec("") ==> [Passed]
+ Expected: ""
+ Yours: ""
+
+Test 8: reverseStringRec("a") ==> [Passed]
+ Expected: "a"
+ Yours: "a"
+
+Test 9: reverseStringRec("abc") ==> [Passed]
+ Expected: "cba"
+ Yours: "cba"
+
+Test 10: reverseStringRec("Hello, Data Structures!") ==> [Passed]
+ Expected: "!serutcurtS ataD ,olleH"
+ Yours: "!serutcurtS ataD ,olleH"
+
+Total test cases: 10
+Correct: 10
+Wrong: 0
+
+================ Bonus Question ================
+Test 1: reverseListRec(null) ==> [Passed]
+ Expected: head->null
+ Yours: head->null
+
+Test 2: reverseListRec(20) ==> [Passed]
+ Expected: head->20->null
+ Yours: head->20->null
+
+Test 3: reverseListRec(20->30->40) ==> [Passed]
+ Expected: head->40->30->20->null
+ Yours: head->40->30->20->null
+
+Test 4: reverseListRec(90->80->70->60->50->40) ==> [Passed]
+ Expected: head->40->50->60->70->80->90->null
+ Yours: head->40->50->60->70->80->90->null
+
+Total bonus test cases: 4
+Correct: 4
+Wrong: 0
