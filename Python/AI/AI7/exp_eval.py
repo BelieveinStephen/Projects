@@ -30,8 +30,8 @@ def logic_analysis(PL):
     return eval(PL)
         
 if __name__== "__main__":
-    f = open(raw_input('Enter file name: '), 'r')
+    f = open(input('Enter file name: '), 'r')
     for line in f:
         PL, KEY = generate_KB(line)
         PL = generate_PL(PL,KEY)
-        print line, logic_analysis(PL) 
+        print (line), print (logic_analysis(PL))
