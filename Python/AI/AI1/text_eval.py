@@ -12,13 +12,19 @@ test2='''By late 1941, Turing and his fellow cryptanalysts Gordon Welchman, Hugh
 
 
 def ari(text):
+    print(text)
     if text[-1]==".":
         text = text[:-1]
     sent = len(text.split("."))
     words=float(len(text.split(" "))-1)
     characters = len(text)-words
-    #print sent,words,characters
-    return 4.71*(characters/words)+0.5*(words/sent)-21.43
+    # print (sent,words,characters)
+    
+    if sent == 0 or words == 0 or characters == 0:
+        ans = 0
+    else:
+        ans = 4.71*(characters/words)+0.5*(words/sent)-21.43
+    return ans
 
 
 def clean(text):
@@ -54,7 +60,5 @@ def eval_text(text):
     
     
 if __name__=="__main__":
-   filename = sys.argv[1]
-   text = open(filename).read()
-   text=unicode(text,errors="replace")
-   print eval_text(text)
+    f = open(input('Enter file name: '), 'r', encoding='utf8').readlines()
+    print (eval_text(str(f)))
